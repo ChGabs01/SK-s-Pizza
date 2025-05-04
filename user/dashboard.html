@@ -1,0 +1,928 @@
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact" class="page">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">Contact Us</h2>
+                <button onclick="showPage('home')" class="flex items-center text-red-600 hover:text-red-800 transition">
+                    <i class="fas fa-arrow-left mr-2"></i> Back
+                </button>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+                        <h3 class="text-2xl font-bold mb-4">Get in Touch</h3>
+                        <p class="text-gray-600 mb-6">Have questions or feedback? We'd love to hear from you!</p>
+                        
+                        <div class="mb-4">
+                            <h4 class="text-lg font-bold mb-2"><i class="fas fa-map-marker-alt text-red-500 mr-2"></i> Address</h4>
+                            <p class="text-gray-600">123 Pizza Street, Magsija, Balilihan, Bohol</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="text-lg font-bold mb-2"><i class="fas fa-phone-alt text-red-500 mr-2"></i> Phone</h4>
+                            <p class="text-gray-600">(+63) -912-123-4567</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="text-lg font-bold mb-2"><i class="fas fa-envelope text-red-500 mr-2"></i> Email</h4>
+                            <p class="text-gray-600">info@skpizza.com</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="text-lg font-bold mb-2"><i class="fas fa-clock text-red-500 mr-2"></i> Hours</h4>
+                            <p class="text-gray-600">Monday-Friday: 7am - 9pm</p>
+                            <p class="text-gray-600">Saturday-Sunday: 7am - 11pm</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-bold mb-4">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="contactName" class="block mb-2 font-medium">Name</label>
+                                <input type="text" id="contactName" class="w-full p-3 border rounded">
+                            </div>
+                            <div class="mb-4">
+                                <label for="contactEmail" class="block mb-2 font-medium">Email</label>
+                                <input type="email" id="contactEmail" class="w-full p-3 border rounded">
+                            </div>
+                            <div class="mb-4">
+                                <label for="contactSubject" class="block mb-2 font-medium">Subject</label>
+                                <input type="text" id="contactSubject" class="w-full p-3 border rounded">
+                            </div>
+                            <div class="mb-4">
+                                <label for="contactMessage" class="block mb-2 font-medium">Message</label>
+                                <textarea id="contactMessage" class="w-full p-3 border rounded" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 transition">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md p-6">
+                <h3 class="text-2xl font-bold mb-4 text-center">Find Us</h3>
+                <div class="aspect-w-16 aspect-h-9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215373510928!2d-73.9878449241644!3d40.75798597138996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1689877297041!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-lg"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">SK's Pizza</h3>
+                    <p class="text-gray-400">Delicious pizza made with love and the finest ingredients since 2025.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" onclick="showPage('home')" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#" onclick="showPage('menu')" class="text-gray-400 hover:text-white transition">Menu</a></li>
+                        <li><a href="#" onclick="showPage('about')" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#" onclick="showPage('contact')" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>123 Pizza Street</li>
+                        <li>Mgsija, Balilihan, Bohol
+                        </li>
+                        <li>(+63) 912-123-4567</li>
+                        <li>info@skpizza.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-yelp text-xl"></i></a>
+                    </div>
+                    <h4 class="text-lg font-bold mt-6 mb-2">Newsletter</h4>
+                    <div class="flex">
+                        <input type="email" placeholder="Your email" class="p-2 rounded-l text-gray-800 w-full">
+                        <button class="bg-red-600 px-4 rounded-r hover:bg-red-700 transition"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+                <p>&copy; 2025 SK's Pizza. All rights reserved.</p>
+            </div>
+        </div>
+    </footer><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Palace - Order Delicious Pizzas Online</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .rating-star {
+            color: #ccc;
+            cursor: pointer;
+            font-size: 2rem;
+            transition: color 0.2s;
+        }
+        .rating-star:hover,
+        .rating-star.active {
+            color: #fbbf24;
+        }
+        .pizza-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .cart-count {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: #ef4444;
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+        .page {
+            display: none;
+        }
+        .active-page {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-red-600 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-pizza-slice text-2xl"></i>
+                <h1 class="text-2xl font-bold">SK's Pizza</h1>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" onclick="showPage('home')" class="hover:text-yellow-200 transition">Home</a>
+                <a href="#" onclick="showPage('menu')" class="hover:text-yellow-200 transition">Menu</a>
+                <a href="#" onclick="showPage('about')" class="hover:text-yellow-200 transition">About</a>
+                <a href="#" onclick="showPage('contact')" class="hover:text-yellow-200 transition">Contact</a>
+            </nav>
+            <div class="relative">
+                <button onclick="showPage('cart')" class="relative p-2 hover:bg-red-700 rounded-full transition">
+                    <i class="fas fa-shopping-cart text-xl"></i>
+                    <span id="cartCount" class="cart-count hidden">0</span>
+                </button>
+            </div>
+            <button class="md:hidden text-xl" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="md:hidden bg-red-700 hidden">
+            <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+                <a href="#" onclick="showPage('home')" class="block py-2 hover:text-yellow-200 transition">Home</a>
+                <a href="#" onclick="showPage('menu')" class="block py-2 hover:text-yellow-200 transition">Menu</a>
+                <a href="#" onclick="showPage('about')" class="block py-2 hover:text-yellow-200 transition">About</a>
+                <a href="#" onclick="showPage('contact')" class="block py-2 hover:text-yellow-200 transition">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8 min-h-screen">
+        <!-- Home Page -->
+        <div id="home" class="page active-page">
+            <div class="hero bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl p-8 md:p-12 text-white mb-12">
+                <div class="max-w-2xl">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Delicious Pizza Delivered to Your Door</h1>
+                    <p class="text-lg mb-6">Order your favorite pizza online and get it hot and fresh in no time. We use only the finest ingredients for that authentic Italian taste.</p>
+                    <button onclick="showPage('menu')" class="bg-white text-red-600 font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition">Order Now</button>
+                </div>
+            </div>
+
+            <div class="mb-12">
+                <h2 class="text-3xl font-bold mb-6 text-center">Our Specialties</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                        <div class="text-red-500 text-4xl mb-4">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Vegetarian Pizzas</h3>
+                        <p class="text-gray-600">Fresh vegetables and premium cheeses on our signature crust.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                        <div class="text-red-500 text-4xl mb-4">
+                            <i class="fas fa-drumstick-bite"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Meat Lovers</h3>
+                        <p class="text-gray-600">Loaded with all your favorite meats for the ultimate protein fix.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                        <div class="text-red-500 text-4xl mb-4">
+                            <i class="fas fa-ice-cream"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Dessert Pizzas</h3>
+                        <p class="text-gray-600">Sweet treats that satisfy your pizza and dessert cravings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Page -->
+        <div id="menu" class="page">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">Our Menu</h2>
+                <button onclick="showPage('home')" class="flex items-center text-red-600 hover:text-red-800 transition">
+                    <i class="fas fa-arrow-left mr-2"></i> Back
+                </button>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden cursor-pointer" onclick="showCategory('vegetarian')">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Vegetarian Pizzas" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Vegetarian Pizzas</h3>
+                        <p class="text-gray-600">5 delicious options</p>
+                    </div>
+                </div>
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden cursor-pointer" onclick="showCategory('meat')">
+                    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Meat Lovers" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Meat Lovers</h3>
+                        <p class="text-gray-600">5 hearty options</p>
+                    </div>
+                </div>
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden cursor-pointer" onclick="showCategory('dessert')">
+                    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1557&q=80" alt="Dessert Pizzas" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Dessert Pizzas</h3>
+                        <p class="text-gray-600">5 sweet options</p>
+                    </div>
+                </div>
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden cursor-pointer" onclick="showCategory('seafood')">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1581&q=80" alt="Seafood Pizzas" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Seafood Pizzas</h3>
+                        <p class="text-gray-600">5 ocean-inspired options</p>
+                    </div>
+                </div>
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden cursor-pointer" onclick="showCategory('sauces')">
+                    <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1613&q=80" alt="Sauces" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Sauces</h3>
+                        <p class="text-gray-600">5 flavorful options</p>
+                    </div>
+                </div>
+                <div class="category-card bg-white rounded-xl shadow-md overflow-hidden cursor-pointer" onclick="showCategory('drinks')">
+                    <img src="https://images.unsplash.com/photo-1551024709-8f23bef7356c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1557&q=80" alt="Drinks" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Drinks</h3>
+                        <p class="text-gray-600">5 refreshing options</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Pages -->
+        <div id="vegetarian" class="page">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">Vegetarian Pizzas</h2>
+                <button onclick="showPage('menu')" class="flex items-center text-red-600 hover:text-red-800 transition">
+                    <i class="fas fa-arrow-left mr-2"></i> Back to Menu
+                </button>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1571066811602-716837d681de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Margherita" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Margherita</h3>
+                        <p class="text-gray-600 mb-4">Classic tomato sauce, mozzarella, and fresh basil</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱ 125.00</span>
+                            <button onclick="showItemDetails('Margherita', 'Classic tomato sauce, mozzarella, and fresh basil', 125.00, 'https://images.unsplash.com/photo-1571066811602-716837d681de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1593504049359-74330989aeb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80" alt="Veggie Supreme" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Veggie Supreme</h3>
+                        <p class="text-gray-600 mb-4">Tomato sauce, mozzarella, bell peppers, mushrooms, onions, olives</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱ 100.00</span>
+                            <button onclick="showItemDetails('Veggie Supreme', 'Tomato sauce, mozzarella, bell peppers, mushrooms, onions, olives', 100.00, 'https://images.unsplash.com/photo-1593504049359-74330989aeb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1588&q=80" alt="Spinach & Feta" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Spinach & Feta</h3>
+                        <p class="text-gray-600 mb-4">Garlic sauce, mozzarella, spinach, feta cheese, red onions</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱ 50.00</span>
+                            <button onclick="showItemDetails('Spinach & Feta', 'Garlic sauce, mozzarella, spinach, feta cheese, red onions', 50.00, 'https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1588&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1588&q=80" alt="Mushroom Truffle" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Mushroom Truffle</h3>
+                        <p class="text-gray-600 mb-4">Truffle oil, mozzarella, assorted mushrooms, garlic, parsley</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱ 100.00</span>
+                            <button onclick="showItemDetails('Mushroom Truffle', 'Truffle oil, mozzarella, assorted mushrooms, garlic, parsley', 100.00, 'https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1588&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1601924582971-422cc7e0b86a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1588&q=80" alt="Caprese" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Caprese</h3>
+                        <p class="text-gray-600 mb-4">Tomato sauce, fresh mozzarella, cherry tomatoes, basil, balsamic glaze</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱ 89.00</span>
+                            <button onclick="showItemDetails('Caprese', 'Tomato sauce, fresh mozzarella, cherry tomatoes, basil, balsamic glaze', 89.00, 'https://images.unsplash.com/photo-1601924582971-422cc7e0b86a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1588&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="meat" class="page">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">Meat Lovers</h2>
+                <button onclick="showPage('menu')" class="flex items-center text-red-600 hover:text-red-800 transition">
+                    <i class="fas fa-arrow-left mr-2"></i> Back to Menu
+                </button>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1581&q=80" alt="Pepperoni" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Pepperoni</h3>
+                        <p class="text-gray-600 mb-4">Tomato sauce, mozzarella, and lots of pepperoni</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱ 89.00</span>
+                            <button onclick="showItemDetails('Pepperoni', 'Tomato sauce, mozzarella, and lots of pepperoni', 89.00, 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1581&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1542282811-943ef1a977c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" alt="BBQ Chicken" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">BBQ Chicken</h3>
+                        <p class="text-gray-600 mb-4">BBQ sauce, mozzarella, chicken, red onions, cilantro</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱ 125.00</span>
+                            <button onclick="showItemDetails('BBQ Chicken', 'BBQ sauce, mozzarella, chicken, red onions, cilantro', 125.00, 'https://images.unsplash.com/photo-1542282811-943ef1a977c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1465&q=80" alt="Meat Feast" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Meat Feast</h3>
+                        <p class="text-gray-600 mb-4">Tomato sauce, mozzarella, pepperoni, ham, sausage, bacon</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱189.00</span>
+                            <button onclick="showItemDetails('Meat Feast', 'Tomato sauce, mozzarella, pepperoni, ham, sausage, bacon', 189.00, 'https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1465&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Spicy Sausage" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Spicy Sausage</h3>
+                        <p class="text-gray-600 mb-4">Tomato sauce, mozzarella, spicy Italian sausage, jalapeños</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱ 179.00</span>
+                            <button onclick="showItemDetails('Spicy Sausage', 'Tomato sauce, mozzarella, spicy Italian sausage, jalapeños', 179.00, 'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1544982503-9f984c14501a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Bacon Cheeseburger" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Bacon Cheeseburger</h3>
+                        <p class="text-gray-600 mb-4">Tomato sauce, mozzarella, ground beef, bacon, cheddar, pickles</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold">₱ 149.00</span>
+                            <button onclick="showItemDetails('Bacon Cheeseburger', 'Tomato sauce, mozzarella, ground beef, bacon, cheddar, pickles', 149.00, 'https://images.unsplash.com/photo-1544982503-9f984c14501a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80')" class="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item Details Page -->
+        <div id="itemDetails" class="page">
+            <div class="flex justify-between items-center mb-8">
+                <h2 id="itemName" class="text-3xl font-bold">Item Name</h2>
+                <button onclick="history.back()" class="flex items-center text-red-600 hover:text-red-800 transition">
+                    <i class="fas fa-arrow-left mr-2"></i> Back
+                </button>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2">
+                        <img id="itemImage" src="" alt="Item" class="w-full h-64 md:h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-1/2">
+                        <p id="itemDescription" class="text-gray-600 mb-6"></p>
+                        <div class="mb-6">
+                            <h3 class="text-xl font-bold mb-3">Size</h3>
+                            <div class="flex space-x-4">
+                                <label class="flex items-center">
+                                    <input type="radio" name="size" value="small" class="mr-2" checked>
+                                    <span>Small (+₱0)</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="size" value="medium" class="mr-2">
+                                    <span>Medium (+₱2)</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="size" value="large" class="mr-2">
+                                    <span>Large (+₱4)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="text-xl font-bold mb-3">Quantity</h3>
+                            <div class="flex items-center">
+                                <button onclick="decrementQuantity()" class="bg-gray-200 px-3 py-1 rounded-l">-</button>
+                                <span id="quantity" class="px-4 py-1 bg-gray-100">1</span>
+                                <button onclick="incrementQuantity()" class="bg-gray-200 px-3 py-1 rounded-r">+</button>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="text-xl font-bold mb-3">Special Instructions</h3>
+                            <textarea id="comments" class="w-full p-3 border rounded" placeholder="Any special requests?"></textarea>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span id="itemPrice" class="text-2xl font-bold">₱0.00</span>
+                            <button onclick="addToCart()" class="bg-red-600 text-white px-6 py-3 rounded-full hover:bg-red-700 transition">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart Page -->
+        <div id="cart" class="page">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">Your Cart</h2>
+                <button onclick="showPage('menu')" class="flex items-center text-red-600 hover:text-red-800 transition">
+                    <i class="fas fa-arrow-left mr-2"></i> Back to Menu
+                </button>
+            </div>
+            
+            <div id="cartItems" class="mb-8">
+                <!-- Cart items will be added here dynamically -->
+                <p class="text-center text-gray-500 py-8">Your cart is empty</p>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+                <div class="flex justify-between mb-4">
+                    <span class="text-lg font-semibold">Subtotal:</span>
+                    <span id="subtotal" class="text-lg font-semibold">₱0.00</span>
+                </div>
+                <div class="flex justify-between mb-4">
+                    <span class="text-lg font-semibold">Delivery Fee:</span>
+                    <span id="deliveryFee" class="text-lg font-semibold">₱2.99</span>
+                </div>
+                <div class="flex justify-between mb-6">
+                    <span class="text-lg font-semibold">Tax (8%):</span>
+                    <span id="tax" class="text-lg font-semibold">₱0.00</span>
+                </div>
+                <div class="flex justify-between text-xl font-bold border-t pt-4">
+                    <span>Total:</span>
+                    <span id="total">₱0.00</span>
+                </div>
+            </div>
+            
+            <button onclick="showPage('checkout')" id="checkoutBtn" class="w-full bg-red-600 text-white py-4 rounded-full hover:bg-red-700 transition disabled:opacity-50 disabled:cursor-not-allowed" disabled>Proceed to Checkout</button>
+        </div>
+
+        <!-- Checkout Page -->
+        <div id="checkout" class="page">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">Checkout</h2>
+                <button onclick="showPage('cart')" class="flex items-center text-red-600 hover:text-red-800 transition">
+                    <i class="fas fa-arrow-left mr-2"></i> Back to Cart
+                </button>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+                <h3 class="text-xl font-bold mb-4">Delivery Information</h3>
+                <form id="checkoutForm">
+                    <div class="mb-4">
+                        <label for="name" class="block mb-2 font-medium">Full Name</label>
+                        <input type="text" id="name" class="w-full p-3 border rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="address" class="block mb-2 font-medium">Delivery Address</label>
+                        <textarea id="address" class="w-full p-3 border rounded" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-4">
+                        <label for="phone" class="block mb-2 font-medium">Phone Number</label>
+                        <input type="tel" id="phone" class="w-full p-3 border rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="instructions" class="block mb-2 font-medium">Delivery Instructions (Optional)</label>
+                        <textarea id="instructions" class="w-full p-3 border rounded" rows="2" placeholder="Gate code, floor, etc."></textarea>
+                    </div>
+                </form>
+            </div>
+            
+            <button onclick="placeOrder()" class="w-full bg-red-600 text-white py-4 rounded-full hover:bg-red-700 transition">Place Order</button>
+        </div>
+
+        <!-- Order Confirmation Page -->
+        <div id="orderConfirmation" class="page">
+            <div class="text-center py-12">
+                <div class="bg-white rounded-xl shadow-md p-8 max-w-2xl mx-auto">
+                    <div class="text-green-500 text-6xl mb-6">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold mb-4">Your Order Has Been Placed!</h2>
+                    <p class="text-lg mb-6">Thank you for your order. Your pizza will be delivered shortly.</p>
+                    <p class="text-lg font-semibold mb-8">Order #<span id="orderNumber">12345</span></p>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-xl font-bold mb-4">Rate Your Experience</h3>
+                        <div class="flex justify-center space-x-2 mb-4">
+                            <i class="fas fa-star rating-star" data-rating="1"></i>
+                            <i class="fas fa-star rating-star" data-rating="2"></i>
+                            <i class="fas fa-star rating-star" data-rating="3"></i>
+                            <i class="fas fa-star rating-star" data-rating="4"></i>
+                            <i class="fas fa-star rating-star" data-rating="5"></i>
+                        </div>
+                        <textarea id="feedback" class="w-full p-3 border rounded mb-4" placeholder="Any feedback for us?"></textarea>
+                        <button onclick="submitFeedback()" class="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 transition">Submit Feedback</button>
+                    </div>
+                    
+                    <button onclick="showPage('menu')" class="bg-gray-200 px-6 py-2 rounded-full hover:bg-gray-300 transition">Back to Menu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">About Pizza Palace</h2>
+                <button onclick="showPage('home')" class="flex items-center text-red-600 hover:text-red-800 transition">
+                    <i class="fas fa-arrow-left mr-2"></i> Back
+                </button>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Our Restaurant" class="w-full rounded-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-bold mb-4">Our Story</h3>
+                        <p class="text-gray-600 mb-4">Founded in 2025, SK's Pizza started as a small family-owned pizzeria with a passion for authentic Filipino flavors. What began as a humble neighborhood spot has grown into one of the most beloved pizza destinations in the town.</p>
+                        <p class="text-gray-600 mb-4">We pride ourselves on using only the freshest ingredients, from our homemade dough to our locally sourced vegetables and premium meats. Our secret family recipes have been passed down through generations, ensuring every bite is packed with flavor.</p>
+                        <p class="text-gray-600">At SK's Pizza, we believe pizza is more than just food - it's a way to bring people together, create memories, and share joy. That's why we put so much love into every pizza we make.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md p-8">
+                <h3 class="text-2xl font-bold mb-6 text-center">Our Team</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Chef" class="w-32 h-32 rounded-full mx-auto mb-4">
+                        <h4 class="text-xl font-bold">Cheryl Mae Payag</h4>
+                        <p class="text-gray-600">Head Chef</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Manager" class="w-32 h-32 rounded-full mx-auto mb-4">
+                        <h4 class="text-xl font-bold">Gicel Banago</h4>
+                        <p class="text-gray-600">Restaurant Manager</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Delivery" class="w-32 h-32 rounded-full mx-auto mb-4">
+                        <h4 class="text-xl font-bold">Liziel Orapa</h4>
+                        <p class="text-gray-600">Delivery Coordinator</p>
+
+    <script>
+        // Cart functionality
+        let cart = [];
+        let currentItem = {};
+        
+        // Show page function
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active-page');
+            });
+            document.getElementById(pageId).classList.add('active-page');
+            updateCartCount();
+            
+            if (pageId === 'cart') {
+                renderCart();
+            }
+            
+            // Scroll to top when changing pages
+            window.scrollTo(0, 0);
+        }
+        
+        // Toggle mobile menu
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+        
+        // Show category
+        function showCategory(category) {
+            showPage(category);
+        }
+        
+        // Show item details
+        function showItemDetails(name, description, price, image) {
+            currentItem = {
+                name,
+                description,
+                basePrice: price,
+                image,
+                size: 'small',
+                quantity: 1,
+                comments: ''
+            };
+            
+            document.getElementById('itemName').textContent = name;
+            document.getElementById('itemDescription').textContent = description;
+            document.getElementById('itemPrice').textContent = `$${price.toFixed(2)}`;
+            document.getElementById('itemImage').src = image;
+            document.getElementById('quantity').textContent = '1';
+            document.querySelector('input[name="size"][value="small"]').checked = true;
+            document.getElementById('comments').value = '';
+            
+            showPage('itemDetails');
+        }
+        
+        // Quantity functions
+        function incrementQuantity() {
+            const quantityElement = document.getElementById('quantity');
+            let quantity = parseInt(quantityElement.textContent);
+            quantity++;
+            quantityElement.textContent = quantity;
+            currentItem.quantity = quantity;
+            updateItemPrice();
+        }
+        
+        function decrementQuantity() {
+            const quantityElement = document.getElementById('quantity');
+            let quantity = parseInt(quantityElement.textContent);
+            if (quantity > 1) {
+                quantity--;
+                quantityElement.textContent = quantity;
+                currentItem.quantity = quantity;
+                updateItemPrice();
+            }
+        }
+        
+        // Update item price based on size and quantity
+        function updateItemPrice() {
+            const sizeRadios = document.getElementsByName('size');
+            let sizePrice = 0;
+            
+            for (const radio of sizeRadios) {
+                if (radio.checked) {
+                    currentItem.size = radio.value;
+                    if (radio.value === 'medium') {
+                        sizePrice = 2;
+                    } else if (radio.value === 'large') {
+                        sizePrice = 4;
+                    }
+                    break;
+                }
+            }
+            
+            const totalPrice = (currentItem.basePrice + sizePrice) * currentItem.quantity;
+            document.getElementById('itemPrice').textContent = `$${totalPrice.toFixed(2)}`;
+        }
+        
+        // Add event listeners for size changes
+        document.addEventListener('DOMContentLoaded', function() {
+            const sizeRadios = document.getElementsByName('size');
+            for (const radio of sizeRadios) {
+                radio.addEventListener('change', updateItemPrice);
+            }
+        });
+        
+        // Add comments to current item
+        document.getElementById('comments').addEventListener('input', function() {
+            currentItem.comments = this.value;
+        });
+        
+        // Add to cart
+        function addToCart() {
+            const sizeRadios = document.getElementsByName('size');
+            for (const radio of sizeRadios) {
+                if (radio.checked) {
+                    currentItem.size = radio.value;
+                    break;
+                }
+            }
+            
+            currentItem.comments = document.getElementById('comments').value;
+            
+            // Calculate final price
+            let sizePrice = 0;
+            if (currentItem.size === 'medium') {
+                sizePrice = 2;
+            } else if (currentItem.size === 'large') {
+                sizePrice = 4;
+            }
+            
+            const item = {
+                ...currentItem,
+                price: currentItem.basePrice + sizePrice,
+                totalPrice: (currentItem.basePrice + sizePrice) * currentItem.quantity
+            };
+            
+            cart.push(item);
+            updateCartCount();
+            showPage('cart');
+        }
+        
+        // Update cart count
+        function updateCartCount() {
+            const count = cart.reduce((total, item) => total + item.quantity, 0);
+            const cartCount = document.getElementById('cartCount');
+            
+            if (count > 0) {
+                cartCount.textContent = count;
+                cartCount.classList.remove('hidden');
+            } else {
+                cartCount.classList.add('hidden');
+            }
+            
+            // Enable/disable checkout button
+            const checkoutBtn = document.getElementById('checkoutBtn');
+            checkoutBtn.disabled = count === 0;
+        }
+        
+        // Render cart items
+        function renderCart() {
+            const cartItems = document.getElementById('cartItems');
+            
+            if (cart.length === 0) {
+                cartItems.innerHTML = '<p class="text-center text-gray-500 py-8">Your cart is empty</p>';
+                document.getElementById('subtotal').textContent = '₱0.00';
+                document.getElementById('tax').textContent = '₱0.00';
+                document.getElementById('total').textContent = '₱0.00';
+                return;
+            }
+            
+            let html = '';
+            let subtotal = 0;
+            
+            cart.forEach((item, index) => {
+                subtotal += item.totalPrice;
+                
+                html += `
+                    <div class="flex items-center justify-between border-b pb-4 mb-4">
+                        <div class="flex items-center">
+                            <img src="${item.image}" alt="${item.name}" class="w-16 h-16 object-cover rounded">
+                            <div class="ml-4">
+                                <h3 class="font-bold">${item.name}</h3>
+                                <p class="text-gray-600 text-sm">${item.size} size</p>
+                                ${item.comments ? `<p class="text-gray-500 text-sm">Notes: ${item.comments}</p>` : ''}
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="mr-6 text-right">
+                                <span class="font-bold">$${item.price.toFixed(2)}</span>
+                                <div class="flex items-center mt-1">
+                                    <button onclick="updateCartItemQuantity(${index}, -1)" class="bg-gray-200 px-2 py-1 rounded-l">-</button>
+                                    <span class="px-2 py-1 bg-gray-100">${item.quantity}</span>
+                                    <button onclick="updateCartItemQuantity(${index}, 1)" class="bg-gray-200 px-2 py-1 rounded-r">+</button>
+                                </div>
+                            </div>
+                            <button onclick="removeCartItem(${index})" class="text-red-500 hover:text-red-700">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            const deliveryFee = 50.00;
+            const tax = subtotal * 0.08;
+            const total = subtotal + deliveryFee + tax;
+            
+            cartItems.innerHTML = html;
+            document.getElementById('subtotal').textContent = `$${subtotal.toFixed(2)}`;
+            document.getElementById('tax').textContent = `$${tax.toFixed(2)}`;
+            document.getElementById('total').textContent = `$${total.toFixed(2)}`;
+        }
+        
+        // Update cart item quantity
+        function updateCartItemQuantity(index, change) {
+            const newQuantity = cart[index].quantity + change;
+            
+            if (newQuantity < 1) {
+                removeCartItem(index);
+                return;
+            }
+            
+            cart[index].quantity = newQuantity;
+            cart[index].totalPrice = cart[index].price * newQuantity;
+            updateCartCount();
+            renderCart();
+        }
+        
+        // Remove cart item
+        function removeCartItem(index) {
+            cart.splice(index, 1);
+            updateCartCount();
+            renderCart();
+        }
+        
+        // Place order
+        function placeOrder() {
+            const name = document.getElementById('name').value;
+            const address = document.getElementById('address').value;
+            const phone = document.getElementById('phone').value;
+            const instructions = document.getElementById('instructions').value;
+            
+            if (!name || !address || !phone) {
+                alert('Please fill in all required fields');
+                return;
+            }
+            
+            // Generate random order number
+            const orderNumber = Math.floor(Math.random() * 90000) + 10000;
+            document.getElementById('orderNumber').textContent = orderNumber;
+            
+            // In a real app, you would send this data to your backend
+            console.log('Order placed:', {
+                orderNumber,
+                customer: { name, address, phone, instructions },
+                items: cart,
+                total: document.getElementById('total').textContent
+            });
+            
+            // Clear cart
+            cart = [];
+            updateCartCount();
+            
+            // Show confirmation
+            showPage('orderConfirmation');
+        }
+        
+        // Submit feedback
+        function submitFeedback() {
+            const stars = document.querySelectorAll('.rating-star.active');
+            const feedback = document.getElementById('feedback').value;
+            
+            // In a real app, you would send this to your backend
+            console.log('Feedback submitted:', {
+                rating: stars.length,
+                comment: feedback
+            });
+            
+            alert('Thank you for your feedback!');
+        }
+        
+        // Rating stars
+        document.addEventListener('DOMContentLoaded', function() {
+            const stars = document.querySelectorAll('.rating-star');
+            
+            stars.forEach(star => {
+                star.addEventListener('click', function() {
+                    const rating = parseInt(this.getAttribute('data-rating'));
+                    
+                    stars.forEach((s, index) => {
+                        if (index < rating) {
+                            s.classList.add('active');
+                        } else {
+                            s.classList.remove('active');
+                        }
+                    });
+                });
+            });
+        });
+        
+        // Initialize with home page
+        showPage('home');
+    </script>
+</body>
+</html>
